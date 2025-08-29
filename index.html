@@ -11,7 +11,7 @@
       rel="stylesheet"
       type="text/css"
     />
-    <!-- Taiwind css -->
+    <!-- Tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Font Awesome CDN -->
     <link
@@ -22,10 +22,10 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="bg-[#F1FBF2]">
+  <body>
     <!-- Navbar -->
     <section class="Nav sm: w-[1440px] mx-auto">
-      <div class="nav-section flex justify-between items-center">
+      <div class="nav-section flex justify-between items-center m-3">
         <div class="Logo w-[150px]">
           <img src="./assets/Logo New.png" alt="" />
           <h2></h2>
@@ -73,20 +73,22 @@
     </section>
 
     <!-- Services -->
-    <section class="Services-Section sm: w-[1440px] mx-auto">
-      <div class="services-parent-wra flex items-start justify-between pt-8">
+    <section class="Services-Section bg-[#F1FBF2]">
+      <div
+        class="services-parent-wra flex items-start justify-between pt-8 sm: w-[1440px] mx-auto"
+      >
         <!-- Left Cards -->
         <div
           class="left-wra w-[70%] grid grid-cols-3 justify-between items-center gap-5"
         >
-          <!-- Card National Emergency Number Start -->
+          <!-- National Emergency Number Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
             <div class="card-img flex justify-between items-center">
               <img
                 class="w-15 bg-red-100 p-2 rounded-2xl"
-                src="./assets/brac.png"
+                src="./assets/emergency.png"
                 alt=""
               />
               <button class="w-15 bg-red-100 p-2 rounded-2xl">
@@ -112,14 +114,15 @@
               </button>
             </div>
           </div>
-          <!-- Card Pollic Helpline Start -->
+          <!-- End End End End -->
+          <!-- Police Helpline Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
             <div class="card-img flex justify-between items-center">
               <img
                 class="w-15 bg-red-100 p-2 rounded-2xl"
-                src="./assets/police.png"
+                src="/assets/police.png"
                 alt=""
               />
               <button class="w-15 bg-red-100 p-2 rounded-2xl">
@@ -145,14 +148,15 @@
               </button>
             </div>
           </div>
-          <!-- Card Fire Services Start -->
+          <!-- End End End End -->
+          <!-- Fire Service Number Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
             <div class="card-img flex justify-between items-center">
               <img
                 class="w-15 bg-red-100 p-2 rounded-2xl"
-                src="./assets/fire-service.png"
+                src="/assets/fire-service.png"
                 alt=""
               />
               <button class="w-15 bg-red-100 p-2 rounded-2xl">
@@ -162,7 +166,7 @@
             <h2 class="font-extrabold text-black text-[18px] mt-5">
               Fire Service Number
             </h2>
-            <h5>Fire Services</h5>
+            <h5>Fire Service</h5>
             <h1 class="font-extrabold text-2xl mt-5">999</h1>
             <h5>Fire</h5>
             <div class="mt-6 gap-2">
@@ -178,14 +182,15 @@
               </button>
             </div>
           </div>
-          <!-- Card Ambulance Start -->
+          <!-- End End End End -->
+          <!-- Ambulance Service Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
             <div class="card-img flex justify-between items-center">
               <img
                 class="w-15 bg-red-100 p-2 rounded-2xl"
-                src="./assets/ambulance.png"
+                src="/assets/ambulance.png"
                 alt=""
               />
               <button class="w-15 bg-red-100 p-2 rounded-2xl">
@@ -195,7 +200,7 @@
             <h2 class="font-extrabold text-black text-[18px] mt-5">
               Ambulance Service
             </h2>
-            <h5>Ambulanc</h5>
+            <h5>Ambulance</h5>
             <h1 class="font-extrabold text-2xl mt-5">1994-999999</h1>
             <h5>Health</h5>
             <div class="mt-6 gap-2">
@@ -211,7 +216,8 @@
               </button>
             </div>
           </div>
-          <!-- Card Woman and Child  Start -->
+          <!-- End End End End -->
+          <!-- Women & Child Helpline Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
@@ -244,7 +250,8 @@
               </button>
             </div>
           </div>
-          <!-- Card anti- Corruption Start -->
+          <!-- End End End End -->
+          <!-- Anti-Corruption Helpline Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
@@ -261,8 +268,8 @@
             <h2 class="font-extrabold text-black text-[18px] mt-5">
               Anti-Corruption Helpline
             </h2>
-            <h5>Anti-Corruption Helpline</h5>
-            <h1 class="font-extrabold text-2xl mt-5">106</h1>
+            <h5>Anti-Corruption</h5>
+            <h1 class="font-extrabold text-2xl mt-5">999</h1>
             <h5>Govt.</h5>
             <div class="mt-6 gap-2">
               <button
@@ -277,7 +284,42 @@
               </button>
             </div>
           </div>
-          <!-- Card Electricity Start -->
+          <!-- End End End End -->
+          <!-- National Emergency Number Card -->
+          <div
+            class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
+          >
+            <div class="card-img flex justify-between items-center">
+              <img
+                class="w-15 bg-red-100 p-2 rounded-2xl"
+                src="/assets/brac.png"
+                alt=""
+              />
+              <button class="w-15 bg-red-100 p-2 rounded-2xl">
+                <i class="fa-solid fa-heart card-heart"></i>
+              </button>
+            </div>
+            <h2 class="font-extrabold text-black text-[18px] mt-5">
+              National Emergency Number
+            </h2>
+            <h5>National Emergency</h5>
+            <h1 class="font-extrabold text-2xl mt-5">999</h1>
+            <h5>National Emergency</h5>
+            <div class="mt-6 gap-2">
+              <button
+                class="copy border-gray-200 border-2 px-9 py-2 rounded-xl"
+              >
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+              <button
+                class="call-coin bg-green-500 px-10 py-2.5 text-white rounded-xl"
+              >
+                <i class="fa-solid fa-phone-flip"></i> Call
+              </button>
+            </div>
+          </div>
+          <!-- End End End End -->
+          <!-- National Emergency Number Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
@@ -294,9 +336,9 @@
             <h2 class="font-extrabold text-black text-[18px] mt-5">
               Electricity Helpline
             </h2>
-            <h5>Electricity Outage</h5>
+            <h5>National Emergency</h5>
             <h1 class="font-extrabold text-2xl mt-5">16216</h1>
-            <h5>Electricity</h5>
+            <h5>National Emergency</h5>
             <div class="mt-6 gap-2">
               <button
                 class="copy border-gray-200 border-2 px-9 py-2 rounded-xl"
@@ -310,14 +352,15 @@
               </button>
             </div>
           </div>
-          <!-- Card Brac Start -->
+          <!-- End End End End -->
+          <!-- National Emergency Number Card -->
           <div
             class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
           >
             <div class="card-img flex justify-between items-center">
               <img
                 class="w-15 bg-red-100 p-2 rounded-2xl"
-                src="./assets/brac.png"
+                src="/assets/brac.png"
                 alt=""
               />
               <button class="w-15 bg-red-100 p-2 rounded-2xl">
@@ -343,39 +386,7 @@
               </button>
             </div>
           </div>
-          <!-- Card BD Railway Start -->
-          <div
-            class="card-wrapper bg-white border-gray-200 border-2 w-auto p-5 rounded-2xl"
-          >
-            <div class="card-img flex justify-between items-center">
-              <img
-                class="w-15 bg-red-100 p-2 rounded-2xl"
-                src="./assets/Bangladesh-Railway.png"
-                alt=""
-              />
-              <button class="w-15 bg-red-100 p-2 rounded-2xl">
-                <i class="fa-solid fa-heart card-heart"></i>
-              </button>
-            </div>
-            <h2 class="font-extrabold text-black text-[18px] mt-5">
-              Bangladesh Railway Helpline
-            </h2>
-            <h5>Bangladesh Railway</h5>
-            <h1 class="font-extrabold text-2xl mt-5">999</h1>
-            <h5>Travel</h5>
-            <div class="mt-6 gap-2">
-              <button
-                class="copy border-gray-200 border-2 px-9 py-2 rounded-xl"
-              >
-                <i class="fa-regular fa-copy"></i> Copy
-              </button>
-              <button
-                class="call-coin bg-green-500 px-10 py-2.5 text-white rounded-xl"
-              >
-                <i class="fa-solid fa-phone-flip"></i> Call
-              </button>
-            </div>
-          </div>
+          <!-- End End End End -->
         </div>
 
         <!-- Right Call History -->
@@ -398,7 +409,8 @@
       </div>
     </section>
 
-    <!-- JS File Here -->
+    <!-- Scripts -->
     <script src="script.js"></script>
+    <script src="heart.js"></script>
   </body>
 </html>

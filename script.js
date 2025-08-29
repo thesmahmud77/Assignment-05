@@ -1,19 +1,17 @@
-// Select coin count
+// Call Button Interaction
+
 let coinEl = document.getElementById("coin-count");
 let coinValue = parseInt(coinEl.textContent);
 
 // Select all call buttons
 document.querySelectorAll(".call-coin").forEach((btn) => {
   btn.addEventListener("click", () => {
-    // Get card info
     let card = btn.closest(".card-wrapper");
     let heading = card.querySelector("h2").textContent;
     let number = card.querySelector("h1").textContent;
-
-    // 1. Show alert message
     alert(`Calling: ${heading} - ${number}`);
 
-    // 2. Deduct coins
+    // 2. Deduct 20 coins
     if (coinValue > 0) {
       coinValue -= 20;
       if (coinValue < 0) coinValue = 0;
@@ -23,7 +21,7 @@ document.querySelectorAll(".call-coin").forEach((btn) => {
       return;
     }
 
-    // 3. Add history record
+    // 3. Add history
     let historyList = document.getElementById("history-list");
     let time = new Date().toLocaleTimeString();
 
@@ -41,7 +39,7 @@ document.querySelectorAll(".call-coin").forEach((btn) => {
   });
 });
 
-// Clear History Interaction
+// Clear History
 document.getElementById("clear-history").addEventListener("click", () => {
   document.getElementById("history-list").innerHTML = "";
 });
